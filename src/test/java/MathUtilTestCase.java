@@ -3,11 +3,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class MathUtilTest1 {
+public class MathUtilTestCase {
 
     @Test
     @DisplayName("Add two int numbers, should return the correct  sum")
-     public void addTwoNumbers() {
+     public void addTwoNumberstest() {
 
         MathUtil mathUtil = new MathUtil();
 
@@ -20,8 +20,8 @@ public class MathUtilTest1 {
 
 
     @Test
-    @DisplayName("Given is a circle radius, should calculsate the area of a circle")
-    public void circleArea() {
+    @DisplayName("Given is a circle radius, should calculate the area of a circle")
+    public void circleAreatest() {
 
         MathUtil mathUtil = new MathUtil();
 
