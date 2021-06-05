@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MathUtilTest1 {
+public class MathUtilTest1 {
 
     @Test
     @DisplayName("Add two int numbers, should return the correct  sum")
